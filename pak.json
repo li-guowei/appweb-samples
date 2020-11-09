@@ -1,0 +1,58 @@
+{
+    "name": "appweb",
+    "description": "Embedthis Appweb Enterprise Edition",
+    "title": "Embedthis Appweb Enterprise Edition",
+    "keywords": [
+        "appweb",
+        "http",
+        "webserver"
+    ],
+    "version": "8.2.0",
+    "homepage": "https://www.embedthis.com/appweb/",
+    "author": {
+        "name": "Embedthis Software",
+        "email": "dev@embedthis.com",
+        "url": "https://www.embedthis.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/embedthis/appweb.git"
+    },
+    "bugs": {
+        "email": "dev@embedthis.com",
+        "url": "http://github.com/embedthis/appweb/issues"
+    },
+    "license": {
+        "type": "Commercial",
+        "url": "https://www.embedthis.com/licensing/"
+    },
+    "dependencies": {
+        "assist": "~1",
+        "http": "~9",
+        "makerom": "~1",
+        "mbedtls": "~2.8",
+        "me-win": "~1",
+        "mpr": "~9",
+        "mpr-version": "~1",
+        "osdep": "~1",
+        "pcre": "~1",
+        "ssl": "~1",
+        "watchdog": "~1"
+    },
+    "optionalDependencies": {
+        "certs": "~1",
+        "esp": "~9",
+        "mpr-mbedtls": "~2",
+        "mpr-openssl": "~1",
+        "sqlite": "~3"
+    },
+    "devDependencies": {
+        "makeme": ">=1.0",
+        "pak": ">=1.0"
+    },
+    "files": [
+        "dist/",
+        "doc/api/"
+    ],
+    "import": true
+}
